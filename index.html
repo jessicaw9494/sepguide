@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 <!DOCTYPE html>
-=======
-<!DOCTYPE html>
->>>>>>> 00ad582f4611b78ce483acefae1d9a063170a24a
 <html>
 
 <head>
@@ -18,36 +14,37 @@
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
-        <!-- Custom CSS -->
+    <!-- Custom CSS -->
     <link rel="stylesheet" href="custom.css">
 </head>
 <script>
     /*!
- * Start Bootstrap - Grayscale Bootstrap Theme (http://startbootstrap.com)
- * Code licensed under the Apache License v2.0.
- * For details, see http://www.apache.org/licenses/LICENSE-2.0.
- */
-// jQuery to collapse the navbar on scroll
-function collapseNavbar() {
-    if ($(".navbar").offset().top > 50) {
-        $(".navbar-fixed-top").addClass("top-nav-collapse");
-    } else {
-        $(".navbar-fixed-top").removeClass("top-nav-collapse");
+     * Start Bootstrap - Grayscale Bootstrap Theme (http://startbootstrap.com)
+     * Code licensed under the Apache License v2.0.
+     * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+     */
+    // jQuery to collapse the navbar on scroll
+    function collapseNavbar() {
+        if ($(".navbar").offset().top > 50) {
+            $(".navbar-fixed-top").addClass("top-nav-collapse");
+        }
+        else {
+            $(".navbar-fixed-top").removeClass("top-nav-collapse");
+        }
     }
-}
 
-$(window).scroll(collapseNavbar);
-$(document).ready(collapseNavbar);
+    $(window).scroll(collapseNavbar);
+    $(document).ready(collapseNavbar);
 
 
-// Closes the Responsive Menu on Menu Item Click
-$('.navbar-collapse ul li a').click(function() {
-  if ($(this).attr('class') != 'dropdown-toggle active' && $(this).attr('class') != 'dropdown-toggle') {
-    $('.navbar-toggle:visible').click();
-  }
-});
-
+    // Closes the Responsive Menu on Menu Item Click
+    $('.navbar-collapse ul li a').click(function() {
+        if ($(this).attr('class') != 'dropdown-toggle active' && $(this).attr('class') != 'dropdown-toggle') {
+            $('.navbar-toggle:visible').click();
+        }
+    });
 </script>
+
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 
     <!-- Navigation -->
@@ -58,8 +55,8 @@ $('.navbar-collapse ul li a').click(function() {
                     <i class="fa fa-bars"></i>
                 </button>
                 <a class="navbar-brand page-scroll" href="#page-top">
-                     <ul class="nav nav-justified">
-                    <i class="fa fa-play-circle"></i>  <span class="light">Start</span> Bootstrap
+                    <ul class="nav nav-justified">
+                        <i class="fa fa-play-circle"></i> <span class="light">Start</span> Bootstrap
                     </ul>
                 </a>
 
@@ -99,7 +96,7 @@ $('.navbar-collapse ul li a').click(function() {
         </div>
     </header>
 
-     <div class="container-fluid bg-3 text-center" id="middle">
+    <div class="container-fluid bg-3 text-center" id="middle">
         <h3>Show Me The Function</h3>
         <br>
         <div class="row">
@@ -120,7 +117,8 @@ $('.navbar-collapse ul li a').click(function() {
                 <img src="http://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
             </div>
         </div>
-        <br><br>
+        <br>
+        <br>
     </div>
 
     <footer class="container-fluid text-center">
