@@ -1,4 +1,4 @@
- /* Remove the navbar's default margin-bottom and rounded borders */ 
+ /* Remove the navbar's default margin-bottom and rounded borders */
 
         .navbar {
             margin-bottom: 0;
@@ -141,18 +141,6 @@
     }
 }
 
-a:hover,
-a:focus {
-    text-decoration: none;
-    color: #1d9b6c;
-}
-
-.light {
-    font-weight: 400;
-  
-}
-<<<<<<< HEAD
-=======
 .navbar-brand {
     float:none;
 }
@@ -215,5 +203,5 @@ a:focus {
     text-decoration: none;
     color: #1d9b6c;
 }
->>>>>>> 00ad582f4611b78ce483acefae1d9a063170a24a
+
 
