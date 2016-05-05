@@ -180,6 +180,7 @@ h1{
     color: #e3c8c5;
     font-size: 90px;
     font-weight: 900;
+    letter-spacing: 2px;
 }
 
 p {
@@ -207,4 +208,11 @@ a:hover,
 a:focus {
     text-decoration: none;
     color: #1d9b6c;
+}
+
+#ownquote {
+    font-family: 'Wire One', sans-serif;
+    letter-spacing: 2px;
+    font-weight: 900;
+    font-size: 22px;
 }
