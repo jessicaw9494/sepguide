@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html> 
 <html>
 
 <head>
@@ -20,6 +20,51 @@
     <!-- Custom CSS -->
     <link rel="stylesheet" href="custom.css">
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
+    <style>
+         .slideanim {visibility:hidden;}
+  .slide {
+      animation-name: slide;
+      -webkit-animation-name: slide;	
+      animation-duration: 1s;	
+      -webkit-animation-duration: 1s;
+      visibility: visible;			
+  }
+  @keyframes slide {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateY(70%);
+    } 
+    100% {
+      opacity: 1;
+      -webkit-transform: translateY(0%);
+    }	
+  }
+  @-webkit-keyframes slide {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateY(70%);
+    } 
+    100% {
+      opacity: 1;
+      -webkit-transform: translateY(0%);
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .col-sm-4 {
+      text-align: center;
+      margin: 25px 0;
+    }
+    .btn-lg {
+        width: 100%;
+        margin-bottom: 35px;
+    }
+  }
+  @media screen and (max-width: 480px) {
+    .logo {
+        font-size: 150px;
+    }
+  }
+    </style>
 </head>
 <script>
     /*!
@@ -47,6 +92,19 @@
             $('.navbar-toggle:visible').click();
         }
     });
+    
+    
+    //dddd
+    $(window).scroll(function() {
+  $(".slideanim").each(function(){
+    var pos = $(this).offset().top;
+
+    var winTop = $(window).scrollTop();
+    if (pos < winTop + 600) {
+      $(this).addClass("slide");
+    }
+  });
+});
 </script>
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
@@ -101,22 +159,49 @@
         <img src='photos/rainkey.gif' id='selector' />
     </header>
 
-    <div class="container-fluid bg-3 text-center" id="middle">
-        <br>
-        <h3>Some Wise Suggestions</h3>
-        <div class="row"> 
-            <div class="col-sm-4">
-                <p>Some text..</p>
-            </div>
-            <div class="row">
-                <div class="col-sm-4">
-                    <p>Some text..</p>
-                </div>
-                <div class="row">
-                    <div class="col-sm-4">
-                        <p>Some text..</p>
-                    </div>
-                </div>
+<!-- Container (Services Section) -->
+<div id="services" class="container-fluid text-center">
+  <h2>SERVICES</h2>
+  <h4>What we offer</h4>
+  <br>
+  <div class="row slideanim">
+    <div class="col-sm-4">
+      <span class="glyphicon glyphicon-off logo-small"></span>
+      <h4>POWER</h4>
+      <p>Lorem ipsum dolor sit amet..</p>
+    </div>
+    <div class="col-sm-4">
+      <span class="glyphicon glyphicon-heart logo-small"></span>
+      <h4>LOVE</h4>
+      <p>Lorem ipsum dolor sit amet..</p>
+    </div>
+    <div class="col-sm-4">
+      <span class="glyphicon glyphicon-lock logo-small"></span>
+      <h4>JOB DONE</h4>
+      <p>Lorem ipsum dolor sit amet..</p>
+    </div>
+  </div>
+  <br><br>
+  <div class="row slideanim">
+    <div class="col-sm-4">
+      <span class="glyphicon glyphicon-leaf logo-small"></span>
+      <h4>GREEN</h4>
+      <p>Lorem ipsum dolor sit amet..</p>
+    </div>
+    <div class="col-sm-4">
+      <span class="glyphicon glyphicon-certificate logo-small"></span>
+      <h4>CERTIFIED</h4>
+      <p>Lorem ipsum dolor sit amet..</p>
+    </div>
+    <div class="col-sm-4">
+      <span class="glyphicon glyphicon-wrench logo-small"></span>
+      <h4 style="color:#303030;">HARD WORK</h4>
+      <p>Lorem ipsum dolor sit amet..</p>
+    </div>
+  </div>
+</div>
+
+
 
                 <div class="container-fluid bg-3 text-center" id="middle">
                     <br>
@@ -124,16 +209,16 @@
                     <br>
                     <div class="row">
                         <div class="col-sm-3">
-                            <img src="photos/parents.JPG" class="img-responsive" style="width:100%" alt="Image">
+                            <img src="photos/parents.JPG" class="img-responsive" height="400" width="400" alt="Image">
                         </div>
                         <div class="col-sm-3">
-                            <img src="photos/academic.JPG" class="img-responsive" style="width:100%" alt="Image">
+                            <img src="photos/IS.jpg" class="img-responsive" height="900px" width="400" alt="Image">
                         </div>
                         <div class="col-sm-3">
-                            <img src="http://placehold.it/150x80?text=INDIVIDUAL SUCCESS" class="img-responsive" style="width:100%" alt="Image">
+                            <img src="photos/IMG_2514.JPG" class="img-responsive" height="400" width="400" alt="Image">
                         </div>
                         <div class="col-sm-3">
-                            <img src="photos/projects.JPG" class="img-responsive" style="width:100%" alt="Image">
+                            <img src="photos/meeting.jpg" class="img-responsive" height="400" width="400" alt="Image">
                         </div>
                     </div>
                     <br>
