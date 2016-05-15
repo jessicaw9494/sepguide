@@ -1,4 +1,4 @@
-<!DOCTYPE html>  
+<!DOCTYPE html>
 <html>
 
 <head>
@@ -24,26 +24,26 @@
          .slideanim {visibility:hidden;}
   .slide {
       animation-name: slide;
-      -webkit-animation-name: slide;	
-      animation-duration: 1s;	
+      -webkit-animation-name: slide;
+      animation-duration: 1s;
       -webkit-animation-duration: 1s;
-      visibility: visible;			
+      visibility: visible;
   }
   @keyframes slide {
     0% {
       opacity: 0;
       -webkit-transform: translateY(70%);
-    } 
+    }
     100% {
       opacity: 1;
       -webkit-transform: translateY(0%);
-    }	
+    }
   }
   @-webkit-keyframes slide {
     0% {
       opacity: 0;
       -webkit-transform: translateY(70%);
-    } 
+    }
     100% {
       opacity: 1;
       -webkit-transform: translateY(0%);
@@ -92,8 +92,8 @@
             $('.navbar-toggle:visible').click();
         }
     });
-    
-    
+
+
     //dddd
     $(window).scroll(function() {
   $(".slideanim").each(function(){
@@ -137,10 +137,10 @@
                         <a href="#page-top"></a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#about">About</a>
+                        <a class="page-scroll" href="#services">Services</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#download">Download</a>
+                        <a class="page-scroll" href="#middle">Links</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#contact">Contact</a>
@@ -215,23 +215,31 @@
                     <br>
                     <div class="row">
                         <div class="col-sm-3">
+                            <a href="parent.html">
                             <img src="photos/parents.JPG" class="img-responsive" height="400" width="400" alt="Image">
+                        </a>
                         </div>
                         <div class="col-sm-3">
+                            <a href="IS.html">
                             <img src="photos/IS.jpg" class="img-responsive" height="900px" width="400" alt="Image">
+                        </a>
                         </div>
                         <div class="col-sm-3">
+                            <a href="AS.html">
                             <img src="photos/IMG_2514.JPG" class="img-responsive" height="400" width="400" alt="Image">
+                        </a>
                         </div>
                         <div class="col-sm-3">
+                            <a href="gallery.html">
                             <img src="photos/meeting.jpg" class="img-responsive" height="400" width="400" alt="Image">
+                       </a>
                         </div>
                     </div>
                     <br>
                     <br>
                 </div>
 
-                <footer class="container-fluid text-center">
+                <footer class="container-fluid text-center" id="contact">
                     <h3>Contact Us!</h3>
                 </footer>
 
