@@ -8,7 +8,7 @@
 
  footer {
      background-color: #f2f2f2;
-     padding: 25px;
+     padding: 25px; 
  }
  /* makes jumbotron take up whole screen and responsive*/
 
@@ -22,7 +22,8 @@
      background-size: cover;
      -o-background-size: cover;
      background-position: center;
-     background-image: url('');
+     background-image: url("photos/rainkey.gif");
+    background-size: cover;');
      text-align: center;
  }
 
@@ -31,6 +32,7 @@
      text-align: center;
      padding: 100px 15px 100px;
      width: 100%;
+    
  }
 
  @media (min-width: 768px) {
@@ -44,7 +46,10 @@
          -ms-transform: translateY(-50%);
          transform: translateY(-50%);
          padding: 0 50px;
+    
+}
      }
+     
      header .header-content .header-content-inner {
          max-width: 1000px;
          margin-left: auto;
@@ -347,9 +352,7 @@ h2{
       margin: auto;
   }
 
-#home-img {
+ #home-img{
     background: url("photos/rainkey.gif) center;
     background-size: cover;
-
-    
 }
