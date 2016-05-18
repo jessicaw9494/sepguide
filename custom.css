@@ -8,7 +8,7 @@
 
  footer {
      background-color: #f2f2f2;
-     padding: 25px; 
+     padding: 25px;
  }
  /* makes jumbotron take up whole screen and responsive*/
 
@@ -32,7 +32,7 @@
      text-align: center;
      padding: 100px 15px 100px;
      width: 100%;
-    
+
  }
 
  @media (min-width: 768px) {
@@ -46,10 +46,10 @@
          -ms-transform: translateY(-50%);
          transform: translateY(-50%);
          padding: 0 50px;
-    
+
 }
      }
-     
+
      header .header-content .header-content-inner {
          max-width: 1000px;
          margin-left: auto;
@@ -72,7 +72,7 @@
      border-bottom: 1px solid rgba(255, 255, 255, .3);
      text-transform: uppercase;
      font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
-     background-color:pink;
+     background-color: pink;
  }
 
  .navbar-custom .navbar-brand {
@@ -86,7 +86,7 @@
  .navbar-custom .navbar-brand .navbar-toggle {
      padding: 4px 6px;
      font-size: 16px;
-     color: pink;
+     color: white;
  }
 
  .navbar-custom .navbar-brand .navbar-toggle:focus,
@@ -107,7 +107,7 @@
  .navbar-custom .nav li a:hover {
      outline: 0;
      color: rgba(255, 255, 255, .8);
-     background-color: transparent;
+     background-color: #1d9b6c;
  }
 
  .navbar-custom .nav li a:focus,
@@ -306,7 +306,7 @@ a:focus {
   margin: 50px 0 0 0;
   background-color: transparent;
   text-align: center;
-  
+
 
 }
 
@@ -333,7 +333,7 @@ a:focus {
   -webkit-transform: scale(1);
   -ms-transform: scale(1);
   transform: scale(1);
-  color:white;
+  color:#1d9b6c;
   font-size: 40px;
   font-weight: bold;
 }
