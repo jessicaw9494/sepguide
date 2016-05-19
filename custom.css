@@ -296,6 +296,7 @@ li {
     filter: alpha(opacity=0);
     color: #fff;
     text-transform: uppercase;
+   
 }
 .hovereffect:hover a.info,
 .hovereffect:hover h2 {
@@ -305,11 +306,33 @@ li {
     -ms-transform: scale(1);
     transform: scale(1);
     color: white;
-    font-size: 40px;
+    font-size: 60px;
     font-weight: bold;
+    
 }
 
-
+    @media only screen and (min-width: 768px) {
+        .hovereffect:hover h2  {
+            font-size: 50px;
+        }
+       
+    }
+    /* medium */
+    @media only screen and (min-width: 992px) {
+        .hovereffect:hover h2 {
+            font-size: 40px;
+        }
+      
+    }
+    /* large */
+    @media only screen and (min-width: 1200px) {
+       .hovereffect:hover h2  {
+            font-size: 60px;
+        }
+        
+    }
+ 
+        
 #asids,
 #asps {
     font-size: 13px;
