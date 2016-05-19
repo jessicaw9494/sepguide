@@ -94,22 +94,25 @@ header .header-content .header-content-inner p {
     border-bottom: 1px solid rgba(255, 255, 255, .3);
     text-transform: uppercase;
     font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
-    background-color: pink;
+    background-color:pink;
 }
 .navbar-custom .navbar-brand {
     font-weight: 700;
 }
 .navbar-custom .navbar-brand:focus {
     outline: 0;
+  
+
 }
 .navbar-custom .navbar-brand .navbar-toggle {
     padding: 4px 6px;
     font-size: 16px;
-    color: white;
+  ;
 }
 .navbar-custom .navbar-brand .navbar-toggle:focus,
 .navbar-custom .navbar-brand .navbar-toggle:active {
     outline: 0;
+
 }
 .navbar-custom a {
     color: white;
@@ -153,12 +156,16 @@ header .header-content .header-content-inner p {
         padding: 0;
         border-bottom: 1px solid rgba(255, 255, 255, .3);
         background: #9a927e;
+        
     }
 }
 .navbar-brand {
     float: none;
 }
-
+.icon-bar {
+   background-color:#FFF !important;
+  
+}
 /*!
  * Start Bootstrap - Grayscale Bootstrap Theme (http://startbootstrap.com)
  * Code licensed under the Apache License v2.0.
