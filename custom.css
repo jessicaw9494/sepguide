@@ -48,7 +48,12 @@
          padding: 0 50px;
     
 }
+      
      }
+     
+    
+    
+
      
      header .header-content .header-content-inner {
          max-width: 1000px;
@@ -360,3 +365,4 @@ h2{
     background: url("photos/rainkey.gif) center;
     background-size: cover;
 }
+
