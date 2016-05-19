@@ -333,26 +333,6 @@ li {
 
 }
 
-    @media only screen and (min-width: 768px) {
-        .hovereffect:hover h2  {
-            font-size: 50px;
-        }
-       
-    }
-    /* medium */
-    @media only screen and (min-width: 992px) {
-        .hovereffect:hover h2 {
-            font-size: 40px;
-        }
-      
-    }
-    /* large */
-    @media only screen and (min-width: 1200px) {
-       .hovereffect:hover h2  {
-            font-size: 60px;
-        }
-        
-    }
  
         
 #asids,
