@@ -1,66 +1,72 @@
 /* Remove the navbar's default margin-bottom and rounded borders */
 
- .navbar {
-     margin-bottom: 0;
-     border-radius: 0;
- }
- /* Add a gray background color and some padding to the footer */
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+}
 
- footer {
-     background-color: #f2f2f2;
-     padding: 25px;
- }
- /* makes jumbotron take up whole screen and responsive*/
 
- header {
-     position: relative;
-     width: 100%;
-     height: 100vh;
-     min-height: auto;
-     -webkit-background-size: cover;
-     -moz-background-size: cover;
-     background-size: cover;
-     -o-background-size: cover;
-     background-position: center;
-     background-image: url("photos/rainkey.gif");
-     background-size: cover;
-     ');
+/* Add a gray background color and some padding to the footer */
+
+footer {
+    background-color: #f2f2f2;
+    padding: 25px;
+}
+
+
+/* makes jumbotron take up whole screen and responsive*/
+
+header {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    min-height: auto;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-position: center;
+    background-image: url("photos/rainkey.gif");
+    background-size: cover;
+    ');
  text-align: center;
- }
+}
 
- header .header-content {
-     position: relative;
-     text-align: center;
-     padding: 100px 15px 100px;
-     width: 100%;
- }
+header .header-content {
+    position: relative;
+    text-align: center;
+    padding: 100px 15px 100px;
+    width: 100%;
+}
 
- @media (min-width: 768px) {
-     header {
-         min-height: 100%;
-     }
-     header .header-content {
-         position: absolute;
-         top: 50%;
-         -webkit-transform: translateY(-50%);
-         -ms-transform: translateY(-50%);
-         transform: translateY(-50%);
-         padding: 0 50px;
-     }
- }
+@media (min-width: 768px) {
+    header {
+        min-height: 100%;
+    }
+    header .header-content {
+        position: absolute;
+        top: 50%;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+        padding: 0 50px;
+    }
+}
 
- header .header-content .header-content-inner {
-     max-width: 1000px;
-     margin-left: auto;
-     margin-right: auto;
- }
+header .header-content .header-content-inner {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
 
- header .header-content .header-content-inner p {
-     font-size: 18px;
-     max-width: 80%;
-     margin-left: auto;
-     margin-right: auto;
- }
+header .header-content .header-content-inner p {
+    font-size: 18px;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
 }
 #middle {
     background-color: #eddbd3;
@@ -320,7 +326,6 @@ h2 {
     background: url("photos/rainkey.gif) center;
  background-size: cover;
 }
-
 img {
     max-width: 100%;
     height: auto;
