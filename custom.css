@@ -59,23 +59,19 @@ header .header-content .header-content-inner {
     margin-right: auto;
 }
 
- @media (min-width: 768px) {
-     header {
-         min-height: 100%;
-     }
-     header .header-content {
-         position: absolute;
-         top: 50%;
-         -webkit-transform: translateY(-50%);
-         -ms-transform: translateY(-50%);
-         transform: translateY(-50%);
-         padding: 0 50px;
-
-    
+@media (min-width: 768px) {
+    header {
+        min-height: 100%;
+    }
+    header .header-content {
+        position: absolute;
+        top: 50%;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+        padding: 0 50px;
+    }
 }
-      
-     }
-  
 
 header .header-content .header-content-inner p {
     font-size: 18px;
@@ -94,27 +90,22 @@ header .header-content .header-content-inner p {
     border-bottom: 1px solid rgba(255, 255, 255, .3);
     text-transform: uppercase;
     font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
-
     background-color: black;
-
 }
 .navbar-custom .navbar-brand {
     font-weight: 700;
 }
 .navbar-custom .navbar-brand:focus {
     outline: 0;
-  
-
 }
 .navbar-custom .navbar-brand .navbar-toggle {
     padding: 4px 6px;
     font-size: 16px;
-  ;
+    ;
 }
 .navbar-custom .navbar-brand .navbar-toggle:focus,
 .navbar-custom .navbar-brand .navbar-toggle:active {
     outline: 0;
-
 }
 .navbar-custom a {
     color: white;
@@ -153,21 +144,20 @@ header .header-content .header-content-inner p {
         -moz-transition: background .5s ease-in-out, padding .5s ease-in-out;
         transition: background .5s ease-in-out, padding .5s ease-in-out;
     }
-
+    
     .navbar-custom.top-nav-collapse {
         padding: 0;
         border-bottom: 1px solid rgba(255, 255, 255, .3);
         background: #9a927e;
-        
     }
 }
 .navbar-brand {
     float: none;
 }
 .icon-bar {
-   background-color:#FFF !important;
-  
+    background-color: #FFF !important;
 }
+
 /*!
  * Start Bootstrap - Grayscale Bootstrap Theme (http://startbootstrap.com)
  * Code licensed under the Apache License v2.0.
@@ -237,11 +227,11 @@ a:focus {
 }
 .trips {
     /*color:#578e8e;*/
-
+    
     font-weight: bold;
     font-size: 40px;
     /*padding:200px;*/
-
+    
     text-align: center;
     margin: auto;
     padding-right: 30px;
@@ -269,7 +259,7 @@ li {
     /*width: 100%;*/
     /*height: 100%;*/
     /*float: left;*/
-
+    
     overflow: hidden;
     position: relative;
     text-align: center;
@@ -320,7 +310,6 @@ li {
     filter: alpha(opacity=0);
     color: #fff;
     text-transform: uppercase;
-   
 }
 .hovereffect:hover a.info,
 .hovereffect:hover h2 {
@@ -333,11 +322,7 @@ li {
     font-size: 60px;
     font-weight: bold;
     text-shadow: 1px 1px 4px black;
-
 }
-
- 
-        
 #asids,
 #asps {
     font-size: 13px;
@@ -356,14 +341,12 @@ h2 {
 }
 #home-img {
     background: url("photos/rainkey.gif) center;
-    background-size: cover;
+ background-size: cover;
 }
-
 img {
     max-width: 100%;
     height: auto;
 }
-
-#asbody{
-      padding-top: 30px;
+#asbody {
+    padding-top: 30px;
 }
