@@ -109,20 +109,24 @@ header .header-content .header-content-inner p {
 }
 .navbar-custom a {
     color: white;
+    
 }
 .navbar-custom .nav li a {
+
     -webkit-transition: background .3s ease-in-out;
     -moz-transition: background .3s ease-in-out;
     transition: background .3s ease-in-out;
 }
 .navbar-custom .nav li a:hover {
     outline: 0;
+    
     color: rgba(255, 255, 255, .8);
     background-color: #1d9b6c;
 }
 .navbar-custom .nav li a:focus,
 .navbar-custom .nav li a:active {
     outline: 0;
+   
     background-color: transparent;
 }
 .navbar-custom .nav li.active {
@@ -134,6 +138,8 @@ header .header-content .header-content-inner p {
 .navbar-custom .nav li.active a:hover {
     color: #fff;
 }
+
+
 @media(min-width:768px) {
     .navbar-custom {
         padding: 20px 0;
@@ -295,9 +301,11 @@ li {
     margin: 50px 0 0 0;
     background-color: transparent;
     text-align: center;
+   
 }
 .hovereffect a.info:hover {
     box-shadow: 0 0 5px #fff;
+   
 }
 .hovereffect a.info,
 .hovereffect h2 {
@@ -310,6 +318,7 @@ li {
     filter: alpha(opacity=0);
     color: #fff;
     text-transform: uppercase;
+   
 }
 .hovereffect:hover a.info,
 .hovereffect:hover h2 {
@@ -322,6 +331,8 @@ li {
     font-size: 60px;
     font-weight: bold;
     text-shadow: 1px 1px 4px black;
+     font-size: 20px;
+     text-align: center
 }
 #asids,
 #asps {
